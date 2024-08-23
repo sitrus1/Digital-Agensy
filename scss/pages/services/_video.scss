@@ -1,0 +1,40 @@
+.services-video{
+    padding-top: 120px;
+    padding-bottom: 90px;
+}
+.services-video__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.services-video__content{
+    width: 427px;
+}
+.services-video__title{
+    margin-bottom: 12px;
+    color: $gray-bold;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 54.15px;
+}
+.services-video__text{
+    margin-bottom: 28px;
+    color: $gray;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26.25px;
+}
+.services-video__list{
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
+.services-video__item{
+    padding-left: 34px;
+    color: $gray;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26.25px;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
