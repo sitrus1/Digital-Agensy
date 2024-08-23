@@ -7,6 +7,9 @@
     align-items: center;
     justify-content: space-between;
 }
+.services-video__img-block{
+    cursor: pointer;
+}
 .services-video__content{
     width: 427px;
 }
@@ -37,4 +40,5 @@
     line-height: 26.25px;
     background-repeat: no-repeat;
     background-position: left center;
+    background-image: url('../../../img/video-verify-icon.svg');
 }
