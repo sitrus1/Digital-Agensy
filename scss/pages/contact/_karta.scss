@@ -1,0 +1,68 @@
+// <section class="Karta--text--box">
+//       <div class="Karta--text--box-top">
+//         <div class="container">
+//           <p class="text--box-top-p">
+//             Home > <span class="text--box-top-span1"> Contact us </span>
+//           </p>
+//           <h2 class="text--box-top-h2">
+//             Lorem Ipsum is simply dummy text of the printing and.
+//           </h2>
+//           <span class="text--box-top-span2"
+//             >Lorem Ipsum is simply dummy text of the printing and typesetting
+//             industry.
+//           </span>
+//         </div>
+//       </div>
+//       <div class="Karta--text--box-bottom">
+//         <div class="container">
+//             <img src="./img/Huge Global.svg" alt="img">
+//         </div>
+//       </div>
+//     </section>
+
+.Karta--text--box {
+  width: 100%;
+}
+.Karta--text--box-top {
+  width: 100%;
+  margin-bottom: 93px;
+}
+.container {
+  text-align: center;
+  .text--box-top-p {
+    margin-top: 84px;
+    margin-bottom: 15px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 209%;
+    color: #848484;
+    .text--box-top-span1 {
+      color: #e47500;
+    }
+  }
+  .text--box-top-h2 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 180%;
+    text-align: center;
+    color: #222;
+    margin-bottom: 13px;
+  }
+
+  .text--box-top-span2 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 187%;
+    text-align: center;
+    color: #898989;
+  }
+}
+
+.Karta--text--box-bottom{
+    padding-bottom: 62px;
+    width: 100%;
+    text-align: center;   
+}
